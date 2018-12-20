@@ -17,6 +17,7 @@ if __name__ == "__main__":
         roboclaw.write(chr(32))
         sleep(2)
         roboclaw.write(chr(64))
+        sleep(2)
         
         roboclaw.write(chr(223))
         sleep(2)
